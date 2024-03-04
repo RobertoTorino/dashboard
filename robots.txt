@@ -1,0 +1,9 @@
+# Block only Googlebot
+User-agent: Googlebot
+
+# Block Googlebot and Adsbot
+User-agent: AdsBot-Google
+
+# Block all crawlers, AdsBot crawlers must be named explicitly
+User-agent: *
+Disallow: /
